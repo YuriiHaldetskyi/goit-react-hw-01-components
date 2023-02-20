@@ -1,0 +1,78 @@
+.wrapper {
+  margin-bottom: 24px;
+  margin: 0 auto;
+  width: 290px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px -1px rgb(97 98 118);
+  background-color: #ffffff;
+}
+
+.img {
+  display: block;
+  max-width: calc(290px - (2 * 36px));
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 36px;
+}
+
+.stats__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.username {
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.tag {
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  color: #888888;
+}
+.location {
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  color: #888888;
+}
+
+.stats__item {
+  background-color: rgb(183, 181, 181, 0.5);
+  border-top: 1px solid #adadad;
+  font-size: 12px;
+  font-weight: normal;
+  width: 76px;
+  padding: 20px 10px;
+}
+.stats__item:not(:last-child) {
+  border-right: 1px solid #adadad;
+}
+.stats__item:first-child {
+  border-radius: 0 0 0 4px;
+}
+
+.stats__item:last-child {
+  border-radius: 0 0 4px 0;
+}
+.stats__followers {
+  display: block;
+  margin: 0;
+  padding-bottom: 10px;
+  color: #888888;
+  font-weight: normal;
+}
+
+.stats__quatity {
+  display: block;
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
